@@ -1,0 +1,29 @@
+//estilo del tab en su estado global
+@mixin tab {
+  background-color: $yellow ;
+  color: $dark-blue;
+  font-family: $monserrat ;
+  font-size: 36px ;
+  font-weight: $bold ;
+  height: 61px ;
+  padding-top: 13px ;
+  text-decoration: none;
+  text-align: center ;
+  width: 290px ;
+}
+//estilo del tab en su estado abierto
+
+
+//estilo del tab en su estado cerrado
+@mixin tab-close {
+  background-color: $dark-blue ;
+  color: white;
+}
+
+//estilo del contenedor del tab
+@mixin tab-box{
+  background-color: $dark-blue ;
+  color: white;
+  font-family: $monserrat;
+  padding: 147px;
+}

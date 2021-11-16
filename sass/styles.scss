@@ -1,0 +1,46 @@
+// Normalize
+
+@import "library/normalize" ;
+
+// Helpers
+
+@import "Partials/helpers" ;
+
+
+// Settings
+@import "config/settings" ;
+@import "config/mixins" ;
+
+// Components
+
+@import "components/buttons" ;
+@import "components/tabs" ;
+
+
+// Partials
+
+// Estilos globales del sitio web
+
+@import "Partials/global" ;
+
+// Header y Footer global
+@import "Partials/header" ;
+@import "Partials/footer" ;
+
+// Main-styles de todas las paginas
+
+// index
+@import "Partials/main-index";
+
+// Lista de destinos
+@import "Partials/main-list" ;
+
+// Destinos
+
+@import "Partials/main-desti" ;
+
+// Hoteles
+@import "Partials/main-hotel" ;
+
+
+

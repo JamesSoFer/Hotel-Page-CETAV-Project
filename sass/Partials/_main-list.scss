@@ -1,0 +1,71 @@
+// M A I N  C O N T E N T  S T Y L E S
+
+.desti-title-content {
+  background-image: url("../img/destiny.jpg") ;
+  background-repeat: no-repeat ;
+  background-size: cover ;
+  height: 525px ;
+  margin: 0 auto ;
+
+  h2 {
+    color: $white ;
+    font-family: $baskerville ;
+    font-size: 64px ;
+    font-weight: lighter ;
+    padding-left: 150px ;
+  }
+  p {
+    color: $white ;
+    font-family: $monserrat ;
+    font-size: 25px ;
+    padding-left: 150px ;
+    width: 1520px;
+  }
+}
+
+.list-site-map {
+  @include site-map ;
+  padding-left: 150px ;
+  padding-top: 110px ;
+}
+
+.desti-imgs-list {
+  float: left ;
+  margin-bottom: 76px ;
+  width: 1520px ;
+}
+
+.imgs-boxes {
+  float: left ;
+  height: 411px ;
+  width: 450px ;
+
+
+  img {
+    height: 364.66px ;
+    width: 450px ;
+  }
+  &:hover {
+    border: 2px solid $yellow;
+    border-radius: 32px;
+    height: 364.66px ;
+  }
+  hr {
+    color: $yellow ;
+    float: left ;
+    margin-top: 35px ;
+    width: 73px ;
+  }
+  p {
+    color: $white ;
+    font-family: $monserrat ;
+    font-weight: lighter ;
+    float: left ;
+    font-size: 24px ;
+    margin-left: 8px ;
+  }
+}
+
+.imgs-boxes + .imgs-boxes {
+  margin-left: 81px ;
+}
